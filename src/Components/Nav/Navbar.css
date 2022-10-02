@@ -1,0 +1,103 @@
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 30px;
+}
+
+.Nav-links {
+    margin: auto 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+
+.Nav-button-link {
+    margin: auto 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: whitesmoke;
+
+}
+
+.Nav-button {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.SideNav-menu-icon {
+    margin: auto 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.SideNav-menu-icon:hover {
+    cursor: pointer;
+}
+
+
+.Nav-start>.Nav-links {
+    font-weight: small;
+}
+
+.Nav-center>.Nav-links {
+    font-weight: small;
+}
+
+.Nav-end>.Nav-links {
+    font-weight: small;
+}
+
+
+
+/* side Nav */
+.sideNavbar {
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+.divZero {
+    padding-top: 50px;
+}
+
+.divOne {
+    margin: 30px 20px;
+    padding: 5px;
+}
+
+.divTwo {
+    margin: 30px 20px;
+    padding: 5px;
+}
+
+.divThree {
+    margin: 30px 20px;
+    padding: 5px;
+}
+
+
+.Side-Nav-Header-links {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    background-color: transparent;
+    margin: auto 20px;
+}
+
+.bullets {
+    display: flex;
+    flex-direction: column;
+    line-height: 4ch;
+    padding-left: 25px;
+}
+
+.side-Legal {
+    margin: 30px;
+    padding: 10px;
+}
