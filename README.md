@@ -1,2 +1,3 @@
-# Getting Started with Create React App
-Simple react app template 
+# lucid motors clone
+
+![lucid](https://i.imgur.com/nxcyJkx.png)
