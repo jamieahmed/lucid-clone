@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Inconsolata:wght@200;600;900&family=Libre+Baskerville:wght@700&family=Londrina+Shadow&family=Open+Sans:wght@500&display=swap');
+
+.Home-container {
+    position: relative;
+    text-align: center;
+}
+
+
+.HomeDetails {
+    background-color: transparent;
+}
+
+.buttons-Container {
+    background-color: red;
+    margin: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    top: 10%;
+    left: 50%;
+}
+
+.Home-text-logo {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.Home-button1 {
+    margin: auto 10px;
+    border: 1px solid white;
+    padding: 15px;
+    background-color: white;
+}
+
+.Home-button1>.Nav-links {
+    color: gray;
+}
+
+
+.Home-button2 {
+    margin: auto 10px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.Home-button2>.Nav-links {
+    border-bottom: 1px solid white;
+}
+
+.Home-button2>.Nav-links:hover {
+    text-decoration: underline;
+    color: white;
+    border-bottom: none;
+}
+
+.figures {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    top: 20%;
+    left: 50%;
+
+}
+
+.figures>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.figures>div :nth-of-type(1),
+.figures>div :nth-of-type(2) {
+    font-family: 2rem;
+    color: white;
+    background-color: transparent;
+    font-size: medium;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.figures>div :nth-of-type(2) {
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
